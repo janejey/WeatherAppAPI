@@ -1,0 +1,41 @@
+body {
+    font-family: "Nunito", sans-serif;
+    background-image: url("https://i.pinimg.com/originals/b1/20/25/b1202568d88e8fe9e02e7a67fa42c93e.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.input {
+    margin-top: 200px;
+    text-align: center;
+}
+
+input[type="text"] {
+    height: 50px;
+    width: 600px;
+    background-color: #e7e7e7;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    color: rgb(32,147,192);
+}
+
+input[type="submit"] {
+    height: 52px;
+    width: 100px;
+    background-color: #e7e7e7;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    color: rgb(32,147,192);
+}
+
+.display {
+    text-align: center;
+    color: rgb(242,255,255);
+    font-size: 20px;
+}
