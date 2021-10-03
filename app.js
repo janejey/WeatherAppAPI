@@ -9,7 +9,8 @@ button.addEventListener('click', function() {
 .then(response => response.json())
 .then(data => {
     let nameValue = data['name'];
-    let tempValue = "" + data['main']['temp'] + '°F';
+    let tempTemp = +((data['main']['temp']) - 273.15);
+    let tempValue = tempTemp.toFixed(2) + '°C';
     let descValue = data['weather'][0]['description'];
     
     cityName.innerHTML = nameValue;
